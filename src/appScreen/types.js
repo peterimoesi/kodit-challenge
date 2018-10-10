@@ -1,0 +1,1 @@
+export const ADD_APPARTMENTS = 'ADD_APPARTMENTS';
