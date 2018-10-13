@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.2/workbox-sw.js");
 
 importScripts(
-  "/kodit-challenge/precache-manifest.7887b26af36e9ba9ecb43ab2b479bf44.js"
+  "/kodit-challenge/precache-manifest.cef8a577c0cb7364a62a002a362b0ffd.js"
 );
 
 workbox.clientsClaim();
