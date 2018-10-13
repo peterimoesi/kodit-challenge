@@ -49,14 +49,14 @@ class DataVisualize extends React.Component {
         const svgNode = graphRef.querySelector('svg'); // get nodeRef for svg;
         
         const width  = (svgNode.clientWidth / 2) - margin.left - margin.right;
-        const height = svgNode.clientHeight / 2 - margin.bottom - margin.top;
+        const height = (svgNode.clientHeight / 2) - margin.bottom - margin.top;
 
         // scale
-        const x = scaleBand().rangeRound([0, width]).paddingInner(0.5);
+        const x = scaleBand().rangeRound([0, width]).paddingInner(0);
         const y = scaleLinear().range([height, 0]);
 
         // axis
-        const xAxis = axisBottom().scale(x).ticks(10);
+        const xAxis = axisBottom().scale(x).ticks(6);
         const yAxis = axisLeft().scale(y).ticks(4);
 
         x.domain(apartments.map(d => d.built_year));
@@ -92,7 +92,7 @@ class DataVisualize extends React.Component {
             .append('circle')
             .style('fill', '#2bbbad')
             .style('stroke', '#fff')
-            .attr('cx', d => x(d.built_year))
+            .attr('cx', d => x(d.built_year) + 25)
             .attr('r', d => d.size_sqm / 5)
             .attr('cy', d => y(d.price_sqm))
             // .attr('cy', d => height - y(d.price_sqm))
@@ -106,7 +106,7 @@ class DataVisualize extends React.Component {
                 const xPos = mouse(this)[0] - 105;
                 const yPos = mouse(this)[1] + 15;
                 tooltip.attr('transform', `translate(${xPos}, ${yPos})`);
-                tooltip.select('text').text(`Street : ${d.street} - Size/sqm : ${d.size_sqm} - Price/sqm : ${d.price_sqm}`);
+                tooltip.select('text').text(`Street : ${d.street} - Size/sqm : ${d.size_sqm} - Price/sqm : ${d.price_sqm} - ${d.built_year}`);
             }); 
 
         const tooltip = canvas.append('g')
