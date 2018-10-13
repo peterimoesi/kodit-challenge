@@ -57,7 +57,7 @@ class DataVisualize extends React.Component {
 
         // axis
         const xAxis = axisBottom().scale(x).ticks(6);
-        const yAxis = axisLeft().scale(y).ticks(4);
+        const yAxis = axisLeft().scale(y).ticks(6);
 
         x.domain(apartments.map(d => d.built_year));
         y.domain([0, max(apartments, (d) => d.price_sqm)]);
@@ -81,8 +81,9 @@ class DataVisualize extends React.Component {
             .attr('transform', 'rotate(0)')
             .attr('dy', '3em')
             .attr('x', '-1em')
-            .attr('y', 10)
+            .attr('y', -15)
             .style('text-anchor', 'end')
+            .style('fill', '#2bbbad')
             .text('Price');
 
 
