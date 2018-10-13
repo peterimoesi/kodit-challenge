@@ -1,13 +1,13 @@
 {
   "main.css": "/kodit-challenge/static/css/main.defbb05a.chunk.css",
-  "main.js": "/kodit-challenge/static/js/main.085c78ab.chunk.js",
-  "main.js.map": "/kodit-challenge/static/js/main.085c78ab.chunk.js.map",
+  "main.js": "/kodit-challenge/static/js/main.7457871b.chunk.js",
+  "main.js.map": "/kodit-challenge/static/js/main.7457871b.chunk.js.map",
   "static/css/1.48c75e55.chunk.css": "/kodit-challenge/static/css/1.48c75e55.chunk.css",
   "static/js/1.16e5f75a.chunk.js": "/kodit-challenge/static/js/1.16e5f75a.chunk.js",
   "static/js/1.16e5f75a.chunk.js.map": "/kodit-challenge/static/js/1.16e5f75a.chunk.js.map",
   "runtime~main.js": "/kodit-challenge/static/js/runtime~main.0ceb6f5a.js",
   "runtime~main.js.map": "/kodit-challenge/static/js/runtime~main.0ceb6f5a.js.map",
-  "static/media/mdb.css": "/kodit-challenge/static/media/Roboto-Bold.dc81817d.woff",
+  "static/media/mdb.css": "/kodit-challenge/static/media/Roboto-Bold.e31fcf18.ttf",
   "static/media/house1.jpg": "/kodit-challenge/static/media/house1.ace129c8.jpg",
   "static/media/house3.jpg": "/kodit-challenge/static/media/house3.61fbb9cf.jpg",
   "static/media/font-awesome.min.css": "/kodit-challenge/static/media/fontawesome-webfont.912ec66d.svg",
@@ -15,6 +15,6 @@
   "static/css/main.defbb05a.chunk.css.map": "/kodit-challenge/static/css/main.defbb05a.chunk.css.map",
   "static/css/1.48c75e55.chunk.css.map": "/kodit-challenge/static/css/1.48c75e55.chunk.css.map",
   "index.html": "/kodit-challenge/index.html",
-  "precache-manifest.3a716e12f0e1b32416aac072f66d5a12.js": "/kodit-challenge/precache-manifest.3a716e12f0e1b32416aac072f66d5a12.js",
+  "precache-manifest.7887b26af36e9ba9ecb43ab2b479bf44.js": "/kodit-challenge/precache-manifest.7887b26af36e9ba9ecb43ab2b479bf44.js",
   "service-worker.js": "/kodit-challenge/service-worker.js"
 }
