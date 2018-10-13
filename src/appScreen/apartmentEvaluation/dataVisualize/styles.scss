@@ -1,0 +1,13 @@
+.canvas-cont {
+    margin : 80px 0;
+    .axis path, .axis-line {
+        fill : none;
+        stroke : #494949;
+        shape-rendering: crispEdges
+    }
+}
+
+.svg-tooltip > text {
+    z-index: 1000;
+    width : 100px;
+}
